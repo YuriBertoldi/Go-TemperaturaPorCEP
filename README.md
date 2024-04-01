@@ -18,5 +18,11 @@ Este repositório contém um sistema desenvolvido em Go que recebe um CEP válid
 1. Execute o Docker Compose:
     docker-compose up
 
-1. Acesse o sistema em seu navegador ou utilizando ferramentas como cURL ou Postman:
+2. Acesse o sistema em seu navegador ou utilizando ferramentas como cURL ou Postman:
     curl http://localhost:8080/clima?cep=seu-cep-aqui
+
+
+## Acesso ao serviço pelo Google Cloud
+
+1. Acesse o sistema em seu navegador ou utilizando ferramentas como cURL ou Postman:
+    curl https://go-temperatura-por-cep-si642ofoya-uc.a.run.app/clima?cep=seu-cep-aqui
